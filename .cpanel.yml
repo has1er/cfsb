@@ -2,11 +2,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/cfsb84569643/repositories/cfsb/
-    - / -R .vscode $DEPLOYPATH
-    - / -R assets $DEPLOYPATH
-    - / -R css $DEPLOYPATH
-    - / -R fonts $DEPLOYPATH
-    - / -R img $DEPLOYPATH
-    - / -R js $DEPLOYPATH
-    / index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home2/cfsb84569643/public_html/
+    - /bin/cp index.html $DEPLOYPATH
