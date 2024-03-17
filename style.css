@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: black;
     font-family: monospace;
     color: red;
 }
@@ -19,9 +19,9 @@ body {
     background: #000;
     text-align: center;
     box-sizing: border-box;
-  }
+}
   
-  .hover-menu * {
+.hover-menu * {
     box-sizing: border-box;
   }
   
@@ -32,9 +32,9 @@ body {
     right: 0;
     opacity: 1;
     transition: 0.3s ease-in-out;
-  }
+}
   
-  .hover-menu div {
+.hover-menu div {
     position: absolute;
     top: 0;
     left: -120px;
@@ -46,9 +46,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
   
-  .hover-menu div a {
+.hover-menu div a {
     display: block;
     line-height: 2;
     color: #fff;
@@ -57,18 +57,18 @@ body {
     padding: 5px 15px;
     position: relative;
     transition: 0.3s ease-in-out;
-  }
+}
   
-  .hover-menu div a:hover {
+.hover-menu div a:hover {
     text-decoration: underline;
-  }
+}
   
-  .hover-menu:hover img {
+.hover-menu:hover img {
     opacity: 0.5;
     right: -120px;
-  }
+}
   
-  .hover-menu:hover div {
+.hover-menu:hover div {
     left: 0;
     opacity: 1;
-  }
+}
