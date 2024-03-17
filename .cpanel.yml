@@ -5,4 +5,5 @@ deployment:
     - export DEPLOYPATH=/home2/cfsb84569643/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
