@@ -18,3 +18,8 @@ div.scroll-container {
 div.scroll-container img {
     padding: 10px;
 }
+
+img {
+    height: 100px;
+    width: 100px;
+}
