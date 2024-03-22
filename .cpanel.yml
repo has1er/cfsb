@@ -4,4 +4,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/cfsb84569643/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp game.html $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
